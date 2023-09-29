@@ -1,0 +1,50 @@
+#navbar-top-color-block{
+    background: #45843B;
+    height: 27px;
+}
+
+#navbar-logo-wrap{
+   width: 10%;
+}
+
+#navbar-logo{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.navbar-elements-text{
+    color: #030303;
+font-family: 'Nunito Sans', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.18px;
+text-transform: capitalize;
+}
+
+#navbar-elements-wrap{
+  display: flex;
+  padding: 30px 0px 30px 0px;
+}
+
+#navbar-elements-main-wrap{
+    display: flex;
+}
+
+#navbar-search-input-icon-wrap{
+    background: #45843B;
+    padding: 8px;
+}
+
+#navbar-search-input-icon{
+    color: white;
+}
+
+#navbar-search-input-main-wrap>input{
+    padding: 5px;
+    border-radius: 5px;
+background: #FFF;
+border: 0.2px solid rgba(59, 126, 49, 0.80);
+}
