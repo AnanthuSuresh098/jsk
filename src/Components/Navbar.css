@@ -4,7 +4,8 @@
 }
 
 #navbar-logo-wrap{
-   width: 10%;
+   width: 9%;
+   margin-top: 15px;
 }
 
 #navbar-logo{
@@ -22,29 +23,46 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.18px;
 text-transform: capitalize;
+ margin-top: 40px;
 }
 
 #navbar-elements-wrap{
   display: flex;
-  padding: 30px 0px 30px 0px;
+  padding: 0px 0px 20px 0px;
+  justify-content: space-around;
+  background: #F1FDD1;
 }
 
 #navbar-elements-main-wrap{
     display: flex;
+    width: 45%;
+    justify-content: space-between;
 }
 
 #navbar-search-input-icon-wrap{
     background: #45843B;
-    padding: 8px;
+    padding: 3px 12px 5px 12px;
+    border-radius: 5px;
+    margin-left: -10px;
 }
 
 #navbar-search-input-icon{
     color: white;
+    vertical-align: middle;
 }
 
 #navbar-search-input-main-wrap>input{
-    padding: 5px;
+    padding: 7px;
     border-radius: 5px;
 background: #FFF;
 border: 0.2px solid rgba(59, 126, 49, 0.80);
+width: 80%;
+}
+
+#navbar-search-input-main-wrap{
+    display: flex;
+    margin-top: 30px;
+    width: 20%;
+    height: 35px;
+    padding-top: 5px;
 }
