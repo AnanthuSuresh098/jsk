@@ -81,3 +81,69 @@ margin-left: 15px;
    margin-top:140px;
    margin-left: 100px;
 }
+
+#homepage-products-section-headline{
+   color: rgba(3, 3, 3, 0.90);
+font-family: "Poppins";
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.3px;
+text-align: center;
+}
+
+#homepage-products-section-headline>span{
+   color: #3B7E31;
+}
+
+#homepage-products-section-main-wrap{
+   padding-top: 70px;
+}
+
+.homepage-products-slider-image-wrap{
+  width: 71%;
+  height: 130px;
+  border-radius: 10px;
+border: 0.5px solid rgba(112, 112, 112, 0.35);
+background: #F6F7F7;
+padding: 35px;
+}
+
+.homepage-products-slider-image-wrap>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#homepage-products-slider-main-wrap{
+   /* border: 1px solid red; */
+   width: 80%;
+   margin: auto;
+   margin-top: 90px;
+}
+
+.homepage-products-slider-component{
+   /* border: 1px solid black; */
+}
+
+.homepage-products-slider-slides-title{
+   color: #000;
+text-align: center;
+font-family: 'Nunito Sans', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px; /* 138.889% */
+letter-spacing: 0.25px;
+margin-top: 23px;
+}
+
+.homepage-products-slider-slides{
+  /* border: 1px solid red; */
+}
+
+.homepage-products-slider-component > .slick-list>div>div{
+   width: 210px;
+   margin-left: 45px;
+}
