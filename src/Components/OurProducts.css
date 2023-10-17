@@ -44,7 +44,7 @@ margin-top: 30px;
 }
 
 .our-products-page-product-grids{
-
+ cursor: pointer;
 }
 
 .our-products-page-product-grids-image-wrap{
@@ -155,6 +155,7 @@ margin-top: 30px;
 
 #our-products-page-faq-section-wrap{
  margin-top: 120px;
+ margin-bottom: 120px;
 }
 
 #our-products-page-faq-section-headline{
@@ -195,6 +196,7 @@ letter-spacing: 0.25px;
 .our-products-page-faq-section-content-arrow-up-icon{
   color: #3B7E31;
   font-size: 30px;
+  float: right;
 }
 
 .our-products-page-faq-section-content{
@@ -203,5 +205,17 @@ letter-spacing: 0.25px;
   border-radius: 6px;
 background: #FFF8E4;
 margin-top: 15px;
-padding: 26px 0px 26px 40px;
+padding: 26px 20px 26px 40px;
+cursor: pointer;
+}
+
+.our-products-page-faq-section-content-answer{
+ color: rgba(3, 3, 3, 0.90);
+font-family: "Nunito";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 166.667% */
+letter-spacing: 0.25px;
+margin-top: 29px;
 }
