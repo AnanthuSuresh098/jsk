@@ -70,3 +70,10 @@ width: 80%;
 #navbar-elements-main-wrap>a{
     text-decoration: none;
 }
+
+@media screen and (max-width:480px) {
+#navbar-elements-wrap{
+    display: none;
+}
+
+}

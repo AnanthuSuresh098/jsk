@@ -92,3 +92,87 @@ letter-spacing: 0.027px;
 #footer-info-section-contact-wrap>:nth-child(3){
     margin-top: 8px;
 }
+
+#footer-copyright-section-mobile-view{
+    display: none;
+}
+
+@media screen and (max-width:480px) {
+
+#footer-main-wrapper{
+    padding: 31px 16px 58px 16px;
+}
+
+#footer-info-section-wrap{
+    width: 55%;
+}
+
+#footer-quick-link-copyright-section-wrap{
+    width: 30%;
+}
+
+.footer-info-section-title{
+color: #FFF;
+font-family: "Poppins";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.035px;
+text-transform: capitalize;
+margin-bottom: 10px;
+}
+
+.footer-info-section-content{
+color: rgba(255, 255, 255, 0.74);
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.03px;
+text-transform: capitalize;
+}
+
+
+#footer-quick-link-section-title{
+color: #FFF;
+font-family: "Poppins";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.035px;
+text-transform: capitalize;
+}
+
+.footer-quick-link-section-links{
+color: rgba(255, 255, 255, 0.74);
+font-family: "Poppins";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.03px;
+text-transform: capitalize;
+}
+
+#footer-copyright-section{
+    display: none;
+}
+
+#footer-copyright-section-mobile-view{
+    display: block;
+    color: #FFF;
+font-family: "Nunito";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 214.286% */
+letter-spacing: 0.021px;
+background: #1D262D;
+text-align: center;
+padding-bottom: 15px;
+padding-top: 15px;
+}
+}

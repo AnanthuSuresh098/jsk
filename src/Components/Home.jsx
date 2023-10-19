@@ -24,6 +24,17 @@ export const Home = () => {
     arrows: true,
     nextArrow: <Slider01NextArrow />,
     prevArrow: <Slider01PrevArrow />,
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          dots: false,
+          variableWidth: true,
+        },
+      },
+    ],
   };
 
     const handleSlider_01_NextClick = () => {
@@ -236,7 +247,7 @@ export const Home = () => {
             About <span>Us</span>
           </div>
           <div>
-            Since its founding in 1999, JSK PKG has been a forerunner in
+            Since its founding in 1999, JSK Packaging has been a forerunner in
             flexible packaging. Our modern manufacturing facility is in the
             heart of Hyderabad, near Shamshabad Airport.
           </div>
