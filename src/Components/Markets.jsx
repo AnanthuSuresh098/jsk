@@ -23,6 +23,16 @@ export const Markets=()=>{
     arrows: true,
     nextArrow: <MarketSliderNextArrow />,
     prevArrow: <MarketSliderPrevArrow />,
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: false,
+        },
+      },
+    ],
   };
 
     const marketSlider_NextClick = () => {

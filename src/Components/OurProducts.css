@@ -1,41 +1,41 @@
-#our-products-page-headline{
-    color: rgba(3, 3, 3, 0.90);
-font-family: "Poppins";
-font-size: 30px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: 0.3px;
-text-align: center;
-margin-top: 60px;
+#our-products-page-headline {
+  color: rgba(3, 3, 3, 0.9);
+  font-family: "Poppins";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin-top: 60px;
 }
 
-#our-products-page-headline>span{
-color: #3B7E31;
-font-family: "Poppins";
-font-size: 30px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: 0.3px;
+#our-products-page-headline > span {
+  color: #3b7e31;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.3px;
 }
 
-#our-products-page-description{
-  color: rgba(3, 3, 3, 0.80);
-font-family: "Poppins";
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 177.778% */
-letter-spacing: 0.018px;
-width: 89%;
-margin: auto;
-margin-top: 30px;
+#our-products-page-description {
+  color: rgba(3, 3, 3, 0.8);
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  letter-spacing: 0.018px;
+  width: 89%;
+  margin: auto;
+  margin-top: 30px;
 }
 
-#our-products-page-grid-main-wrap{
+#our-products-page-grid-main-wrap {
   display: grid;
-  grid-template-columns: repeat(5,16%);
+  grid-template-columns: repeat(5, 16%);
   width: 89%;
   margin: auto;
   margin-top: 67px;
@@ -43,179 +43,389 @@ margin-top: 30px;
   column-gap: 59px;
 }
 
-.our-products-page-product-grids{
- cursor: pointer;
+.our-products-page-product-grids {
+  cursor: pointer;
 }
 
-.our-products-page-product-grids-image-wrap{
+.our-products-page-product-grids-image-wrap {
   width: 100%;
   height: 205px;
-    border-radius: 10px;
-border: 0.5px solid rgba(112, 112, 112, 0.35);
-background: #F6F7F7;
+  border-radius: 10px;
+  border: 0.5px solid rgba(112, 112, 112, 0.35);
+  background: #f6f7f7;
 }
 
-.our-products-page-product-grids-image-wrap>img{
+.our-products-page-product-grids-image-wrap > img {
   width: 100%;
   height: 100%;
-  object-position: 50% 50% ;
+  object-position: 50% 50%;
   object-fit: contain;
   border-radius: 10px;
 }
 
-.our-products-page-product-grids>:nth-child(2){
+.our-products-page-product-grids > :nth-child(2) {
   color: #000;
-text-align: center;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 25px; /* 138.889% */
-letter-spacing: 0.25px;
-font-family: 'Nunito';
-margin-top: 27px;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px; /* 138.889% */
+  letter-spacing: 0.25px;
+  font-family: "Nunito";
+  margin-top: 27px;
 }
 
-#our-products-page-free-sample-section-wrap{
-   display: flex;
-   justify-content: space-around;
-   background: #EEDED1;
-   padding-top: 60px;
-   padding-bottom: 60px;
-   margin-top: 150px;
+#our-products-page-free-sample-section-wrap {
+  display: flex;
+  justify-content: space-around;
+  background: #eeded1;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-top: 150px;
 }
 
-#our-products-page-free-sample-section-image-wrap{
-   width: 30%;
+#our-products-page-free-sample-section-image-wrap {
+  width: 30%;
 }
 
-#our-products-page-free-sample-section-image-wrap>img{
-   width: 100%;
-   height: 100%;
-   object-fit: cover;
+#our-products-page-free-sample-section-image-wrap > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-#our-products-page-free-sample-section-content-wrap{
-   width: 38%;
-   border-radius: 5px;
-border: 0.5px solid #D9D9D9;
-background: #FFB301;
-height: 307px;
-padding-left: 58px;
-margin-top: 40px;
+#our-products-page-free-sample-section-content-wrap {
+  width: 38%;
+  border-radius: 5px;
+  border: 0.5px solid #d9d9d9;
+  background: #ffb301;
+  height: 307px;
+  padding-left: 58px;
+  margin-top: 40px;
 }
 
-#our-products-page-free-sample-section-content-title{
-   color: rgba(3, 3, 3, 0.80);
-font-family: "Poppins";
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: 0.36px;
-margin-top: 64px;
+#our-products-page-free-sample-section-content-title {
+  color: rgba(3, 3, 3, 0.8);
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  margin-top: 64px;
 }
 
-#our-products-page-free-sample-section-content-description{
-   color: rgba(3, 3, 3, 0.70);
-font-family: 'Nunito Sans', sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 25px;
-width: 80%;
-margin-top: 18px;
+#our-products-page-free-sample-section-content-description {
+  color: rgba(3, 3, 3, 0.7);
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  width: 80%;
+  margin-top: 18px;
 }
 
-#our-products-page-free-sample-section-button{
-   border-radius: 8px;
-border: 0.5px solid #3B7E31;
-background: #3B7E31;
-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.04);
-width: 35%;
-padding-top: 8px;
-padding-bottom: 12px;
-padding-left: 20px;
-color: #FFF;
-font-family: "Poppins";
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px; /* 133.333% */
-letter-spacing: 0.25px;
-text-transform: capitalize;
-margin-top: 30px;
+#our-products-page-free-sample-section-button {
+  border-radius: 8px;
+  border: 0.5px solid #3b7e31;
+  background: #3b7e31;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.04);
+  width: 35%;
+  padding-top: 8px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 133.333% */
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+  margin-top: 30px;
 }
 
-#our-products-page-free-sample-section-button-icon{
-   font-size: 20px;
-   position: relative;
-   left: 50px;
-   top: 5px;
+#our-products-page-free-sample-section-button-icon {
+  font-size: 20px;
+  position: relative;
+  left: 50px;
+  top: 5px;
 }
 
-#our-products-page-faq-section-wrap{
- margin-top: 120px;
- margin-bottom: 120px;
+#our-products-page-faq-section-wrap {
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
-#our-products-page-faq-section-headline{
-  color: rgba(3, 3, 3, 0.90);
-font-family: "Poppins";
-font-size: 30px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: 0.3px;
-text-align: center;
+#our-products-page-faq-section-headline {
+  color: rgba(3, 3, 3, 0.9);
+  font-family: "Poppins";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  text-align: center;
 }
 
-#our-products-page-faq-section-headline>span{
-  color: #3B7E31;
-font-family: "Poppins";
-font-size: 30px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: 0.3px;
+#our-products-page-faq-section-headline > span {
+  color: #3b7e31;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.3px;
 }
 
-#our-products-page-faq-section-content-main-wrap{
+#our-products-page-faq-section-content-main-wrap {
   margin-top: 60px;
 }
 
-.our-products-page-faq-section-content-question{
-  color: rgba(3, 3, 3, 0.90);
-font-family: 'Nunito';
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: 25px; /* 125% */
-letter-spacing: 0.25px;
+.our-products-page-faq-section-content-question {
+  color: rgba(3, 3, 3, 0.9);
+  font-family: "Nunito";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px; /* 125% */
+  letter-spacing: 0.25px;
 }
 
-.our-products-page-faq-section-content-arrow-up-icon{
-  color: #3B7E31;
+.our-products-page-faq-section-content-arrow-up-icon {
+  color: #3b7e31;
   font-size: 30px;
   float: right;
 }
 
-.our-products-page-faq-section-content{
+.our-products-page-faq-section-content {
   width: 65%;
   margin: auto;
   border-radius: 6px;
-background: #FFF8E4;
-margin-top: 15px;
-padding: 26px 20px 26px 40px;
-cursor: pointer;
+  background: #fff8e4;
+  margin-top: 15px;
+  padding: 26px 20px 26px 40px;
+  cursor: pointer;
 }
 
-.our-products-page-faq-section-content-answer{
- color: rgba(3, 3, 3, 0.90);
+.our-products-page-faq-section-content-answer {
+  color: rgba(3, 3, 3, 0.9);
+  font-family: "Nunito";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.25px;
+  margin-top: 29px;
+}
+
+@media screen and (max-width: 480px) {
+  #our-products-page-headline {
+    color: rgba(3, 3, 3, 0.9);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.16px;
+     margin-top: 39px;
+  }
+
+  #our-products-page-headline > span {
+    color: #3b7e31;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.16px;
+  }
+
+  #our-products-page-description{
+color: rgba(3, 3, 3, 0.80);
+font-family: "Poppins";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 183.333% */
+letter-spacing: 0.024px;
+margin-top: 10px;
+width: 90%;
+}
+
+#our-products-page-grid-main-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 28.5%);
+  width: 89%;
+  margin: auto;
+  margin-top: 38px;
+  row-gap: 26px;
+  column-gap: 26px;
+}
+
+.our-products-page-product-grids-image-wrap {
+  height: 90px;
+}
+
+.our-products-page-product-grids > :nth-child(2) {
+ color: #000;
+text-align: center;
 font-family: "Nunito";
-font-size: 18px;
+font-size: 13px;
 font-style: normal;
 font-weight: 500;
-line-height: 30px; /* 166.667% */
+line-height: 19px; /* 146.154% */
 letter-spacing: 0.25px;
-margin-top: 29px;
+  margin-top: 13px;
+}
+
+.our-products-page-product-grids-image-wrap > img {
+  width: 100%;
+  height: 90%;
+  object-position: none;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+#our-products-page-free-sample-section-wrap{
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content: none;
+   background: #EEDED1;
+   padding-top: 0px;
+   padding-bottom: 37px;
+   margin-top: 85px;
+}
+
+#our-products-page-free-sample-section-image-wrap{
+   width: 86%;
+   padding-top: 35px;
+   margin: auto;
+}
+
+#our-products-page-free-sample-section-content-wrap{
+   width: 78%;
+   margin: auto;
+   border-radius: 5px;
+border: 0.5px solid #D9D9D9;
+background: #FFB301;
+height: 220px;
+padding-left: 32px;
+margin-top: 27px;
+padding-bottom: 27px;
+}
+
+#our-products-page-free-sample-section-content-title{
+color: rgba(3, 3, 3, 0.80);
+font-family: "Nunito";
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.285px;
+margin-top: 34px;
+}
+
+#our-products-page-free-sample-section-content-description{
+color: rgba(3, 3, 3, 0.70);
+font-family: "Nunito";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+width: 85%;
+margin-top: 18px;
+}
+
+#our-products-page-free-sample-section-button{
+   border-radius: 3px;
+border: 0.5px solid #3B7E31;
+background: #3B7E31;
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.04);
+width: 60%;
+padding-top: 8px;
+padding-bottom: 12px;
+padding-left: 20px;
+color: #FFF;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 200% */
+letter-spacing: 2px;
+text-transform: uppercase;
+margin-top: 30px;
+}
+
+#our-products-page-faq-section-wrap {
+  margin-top: 74px;
+  margin-bottom: 100px;
+}
+
+#our-products-page-faq-section-headline {
+color: rgba(3, 3, 3, 0.90);
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.16px;
+  width: 60%;
+  margin: auto;
+}
+
+#our-products-page-faq-section-headline > span {
+ color: #3B7E31;
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.16px;
+}
+
+#our-products-page-faq-section-content-main-wrap {
+  margin-top: 38px;
+}
+
+.our-products-page-faq-section-content-question {
+  color: rgba(3, 3, 3, 0.90);
+font-family: "Nunito";
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 21px; /* 150% */
+letter-spacing: 0.25px;
+width: 90%;
+}
+
+.our-products-page-faq-section-content-arrow-up-icon {
+  color: #3b7e31;
+  font-size: 20px;
+  float: right;
+  margin-top: -20px;
+  margin-right: -25px;
+}
+
+.our-products-page-faq-section-content {
+  width: 80%;
+  margin: auto;
+  border-radius: 6px;
+  background: #fff8e4;
+  margin-top: 15px;
+  padding: 17px 10px 17px 20px;
+  cursor: pointer;
+}
+
+.our-products-page-faq-section-content-answer {
+ color: rgba(3, 3, 3, 0.90);
+font-family: "Nunito";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 157.143% */
+letter-spacing: 0.25px;
+  margin-top: 16px;
+}
+
 }
