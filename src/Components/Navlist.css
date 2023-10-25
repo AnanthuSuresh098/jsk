@@ -1,0 +1,100 @@
+#mobile-view-navlist-main-wrap{
+display: none;
+}
+
+@media screen and (max-width:480px) {
+#mobile-view-navlist-main-wrap{
+    border-radius: 0px 0px 19px 0px;
+background: #45843B;
+padding-left: 27px;
+position: absolute;
+z-index: 99999;
+width: 70%;
+display: block;
+padding-bottom: 44px;
+top: 28px;
+animation: slideInFromLeft 0.7s forwards;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    left: -100%;
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.5s;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+#mobile-view-navlist-links-wrap>a{
+    text-decoration: none;
+}
+
+.mobile-view-navlist-links{
+color: #FFF;
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 125% */
+letter-spacing: 0.25px;
+text-transform: capitalize;
+margin-bottom: 26px;
+}
+
+#mobile-view-navlist-close-icon{
+    font-size: 28px;
+    color: #FFF;
+    margin-bottom: 39px;
+    margin-top: 23px;
+    cursor: pointer;
+}
+
+#mobile-view-navlist-divider{
+    background: #fff;
+    height: 0.5px;
+    width: 85%;
+    margin-top: 44px;
+}
+
+#mobile-view-navlist-contact-main-wrap{
+  padding-top: 15px;
+}
+
+.mobile-view-navlist-contact-titles{
+    color: #FFF;
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.25px;
+text-transform: capitalize;
+}
+
+.mobile-view-navlist-contact-content{
+    color: rgba(255, 255, 255, 0.90);
+font-family: "Poppins";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.038px;
+text-transform: capitalize;
+width: 85%;
+}
+
+#mobile-view-navlist-contact-address-wrap{
+    margin-top: 23px;
+}
+
+#mobile-view-navlist-contact-phone-num-wrap{
+    margin-top: 23px;
+}
+
+#mobile-view-navlist-contact-email-wrap{
+    margin-top: 23px;
+}
+}

@@ -5,6 +5,7 @@ import { OurProducts } from "../Components/OurProducts.jsx";
 import { Product } from "../Components/Product.jsx";
 import { Markets } from "../Components/Markets.jsx";
 import { About } from "../Components/About.jsx";
+import { SampleKit } from "../Components/SampleKit.jsx";
 
 export const MainRoutes = () =>{
     return (
@@ -14,6 +15,7 @@ export const MainRoutes = () =>{
         <Route path="/product" element={<Product />} />
         <Route path="/markets" element={<Markets />} />
         <Route path="/about" element={<About />} />
+        <Route path="/samplekit" element={<SampleKit />} />
       </Routes>
     );
 }

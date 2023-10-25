@@ -1,7 +1,22 @@
 import "./Navbar.css";
 import { GoSearch } from "react-icons/go";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { FiSearch } from "react-icons/fi";
+import { NavList } from "./Navlist.jsx";
+import { useState } from "react";
 
 export const Navbar = () =>{
+
+  const [list, setList] = useState(false);
+
+  const listToggle = () => {
+    setList(true);
+  };
+
+  const listClose = () => {
+    setList(false);
+  };
+
     return (
       <div id="navbar-main-wrapper">
         <div id="navbar-top-color-block"></div>
@@ -22,7 +37,7 @@ export const Navbar = () =>{
             <a href="/about">
               <div className="navbar-elements-text">About Us</div>
             </a>
-            <a href="">
+            <a href="/samplekit">
               {" "}
               <div className="navbar-elements-text">Free Sample Kits</div>{" "}
             </a>
@@ -35,6 +50,24 @@ export const Navbar = () =>{
             </div>
           </div>
         </div>
+
+        {/* mobile view navigation */}
+        <>
+          <div id="mobile-view-navigation-main-wrap">
+            <RxHamburgerMenu
+              id="mobile-view-navigation-ham-icon"
+              onClick={listToggle}
+            />
+            <div id="mobile-view-navigation-logo-wrap">
+              <a href="/">
+                {" "}
+                <img src="./images/Nav-img/jsk.png" alt="logo" />
+              </a>
+            </div>
+            <FiSearch id="mobile-view-navigation-search-icon" />
+          </div>
+          {list && <NavList listClose={listClose} />}
+        </>
       </div>
     );
 }
