@@ -81,3 +81,474 @@ margin-left: 15px;
    margin-top:180px;
    margin-left: 100px;
 }
+
+#sample-kit-form-section-wrap{
+   width: 55%;
+   margin: auto;
+   margin-top: 125px;
+   margin-bottom: 145px;
+}
+
+#sample-kit-form-section-title{
+   color: rgba(3, 3, 3, 0.90);
+font-family: "Poppins";
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
+}
+
+#sample-kit-form-section-description{
+   color: rgba(3, 3, 3, 0.70);
+text-align: center;
+font-family: "Nunito";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 35px; /* 175% */
+}
+
+#sample-kit-form-wrap{
+   margin-top: 105px;
+}
+
+#sample-kit-form-name-label{
+   color: rgba(3, 3, 3, 0.90);
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.016px;
+}
+
+#sample-kit-form-name-label>span{
+color: #CD1010;
+}
+
+#sample-kit-form-name-input{
+border-radius: 5px;
+border: 0.5px solid rgba(90, 84, 84, 0.58);
+color:#5A545494;
+width: 100%;
+height: 35px;
+margin-top: 14px;
+margin-bottom: 16px;
+}
+
+#sample-kit-form-company-name-label{
+   color: rgba(3, 3, 3, 0.90);
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.016px;
+}
+
+#sample-kit-form-company-name-input{
+border-radius: 5px;
+border: 0.5px solid rgba(90, 84, 84, 0.58);
+color:#5A545494;
+width: 100%;
+height: 35px;
+margin-top: 14px;
+margin-bottom: 16px;
+}
+
+#sample-kit-form-phone-email-wrap{
+   display: flex;
+   justify-content: space-between;
+}
+
+#sample-kit-form-phone-number-wrap{
+   width: 48%;
+}
+
+#sample-kit-form-email-wrap{
+   width: 48%;
+}
+
+#sample-kit-form-phone-number-label , #sample-kit-form-email-label{
+color: rgba(3, 3, 3, 0.90);
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.016px;
+}
+
+#sample-kit-form-phone-number-label>span{
+   color: #CD1010;
+}
+
+#sample-kit-form-phone-number-input , #sample-kit-form-email-input{
+border-radius: 5px;
+border: 0.5px solid rgba(90, 84, 84, 0.58);
+color:#5A545494;
+width: 100%;
+height: 35px;
+margin-top: 14px;
+margin-bottom: 16px;
+}
+
+#sample-kit-form-requirement-textarea-label{
+   color: rgba(3, 3, 3, 0.90);
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.016px;
+}
+
+#sample-kit-form-requirement-textarea-input{
+   color: rgba(3, 3, 3, 0.90);
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.016px;
+width: 95%;
+padding: 20px 20px 0px 20px;
+margin-top: 14px;
+margin-bottom: 16px;
+}
+
+#sample-kit-form-address-label{
+   color: rgba(3, 3, 3, 0.90);
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.016px;
+}
+
+#sample-kit-form-address-label>span{
+   color: #CD1010;
+}
+
+#sample-kit-form-address-input{
+   border-radius: 5px;
+border: 0.5px solid rgba(90, 84, 84, 0.58);
+color:#5A545494;
+width: 100%;
+height: 35px;
+margin-top: 14px;
+margin-bottom: 16px;
+}
+
+#sample-kit-form-city-input , #sample-kit-form-state-input{
+border-radius: 5px;
+border: 0.5px solid rgba(90, 84, 84, 0.58);
+color:#5A545494;
+width: 100%;
+height: 35px;
+margin-top: 14px;
+margin-bottom: 16px;
+}
+
+#sample-kit-form-city-label>span, #sample-kit-form-state-label>span{
+   color: #CD1010;
+}
+
+#sample-kit-form-city-state-wrap{
+   display: flex;
+   justify-content: space-between;
+}
+
+#sample-kit-form-city-wrap{
+   width: 48%;
+}
+
+#sample-kit-form-state-wrap{
+   width: 48%;
+}
+
+#sample-kit-form-city-label , #sample-kit-form-state-label{
+color: rgba(3, 3, 3, 0.90);
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.016px;
+}
+
+#sample-kit-form-postcode-input , #sample-kit-form-country-input{
+border-radius: 5px;
+border: 0.5px solid rgba(90, 84, 84, 0.58);
+color:#5A545494;
+width: 100%;
+height: 35px;
+margin-top: 14px;
+margin-bottom: 16px;
+}
+
+#sample-kit-form-postcode-label>span, #sample-kit-form-country-label>span{
+   color: #CD1010;
+}
+
+#sample-kit-form-postcode-country-wrap{
+   display: flex;
+   justify-content: space-between;
+}
+
+#sample-kit-form-postcode-wrap{
+   width: 48%;
+}
+
+#sample-kit-form-country-wrap{
+   width: 48%;
+}
+
+#sample-kit-form-postcode-label , #sample-kit-form-country-label{
+color: rgba(3, 3, 3, 0.90);
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.016px;
+}
+
+#sample-kit-form-buttons-wrap{
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#sample-kit-form-submit-button{
+   border-radius: 5px;
+border: 0.5px solid #3B7E31;
+background: #3B7E31;
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.04);
+width: 18%;
+height: 40px;
+color: #FFF;
+font-family: "Poppins";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 133.333% */
+letter-spacing: 0.25px;
+text-transform: capitalize;
+}
+
+#sample-kit-form-cancel-button{
+   border-radius: 5px;
+border: 0.5px solid rgba(112, 112, 112, 0.90);
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.04);
+background: #FFF;
+width: 18%;
+height: 40px;
+color: rgba(3, 3, 3, 0.56);
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 133.333% */
+letter-spacing: 0.038px;
+text-transform: capitalize;
+margin-left: 20px;
+}
+
+@media screen and (max-width:480px) {
+
+   #sample-kit-banner-section-content-title{
+color: rgba(3, 3, 3, 0.90);
+text-align: center;
+font-family: "Poppins";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 133.333% */
+letter-spacing: 0.25px;
+}
+
+.sample-kit-banner-section-image-wrap{
+   width: 80%;
+   position: absolute;
+   top: 16%;
+   right: 10%;
+}
+
+#sample-kit-banner-section-content-wrap{
+   width: 100%;
+   margin-top:260px;
+   margin-left: 0px;
+}
+
+#sample-kit-banner-section-content-desc{
+color: rgba(3, 3, 3, 0.60);
+text-align: center;
+font-family: "Poppins";
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 153.846% */
+letter-spacing: 0.25px;
+width: 65%;
+margin: auto;
+margin-top: 15px;
+}
+
+#sample-kit-banner-section-contact-button{
+   border-radius: 3px;
+background: #3B7E31;
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06);
+padding: 10px 30px 10px 30px;
+color: #FFF;
+font-family: "Poppins";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 133.333% */
+letter-spacing: 0.25px;
+text-transform: capitalize;
+border: #3B7E31;
+width: 100%;
+}
+
+#sample-kit-banner-section-request-button{
+color: #3B7E31;
+font-family: "Poppins";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 133.333% */
+letter-spacing: 0.25px;
+text-transform: capitalize;
+margin-left: 0px;
+width: 100%;
+margin-top: 17px;
+}
+
+#sample-kit-banner-section-button-wrap{
+   width: 80%;
+   margin: auto;
+   margin-top: 30px;
+}
+
+#sample-kit-banner-section-wrap{
+    height: 500px;
+    background: rgba(190, 216, 120, 0.80);
+     overflow: hidden;
+}
+
+#sample-kit-form-section-wrap{
+   width: 85%;
+   margin: auto;
+   margin-top: 51px;
+   margin-bottom: 145px;
+}
+
+#sample-kit-form-section-title{
+  color: rgba(3, 3, 3, 0.90);
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.24px;
+}
+
+#sample-kit-form-section-description{
+color: rgba(3, 3, 3, 0.70);
+text-align: center;
+font-family: "Nunito";
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 153.846% */
+margin-top: 16px;
+}
+
+#sample-kit-form-wrap{
+   margin-top: 57px;
+}
+
+#sample-kit-form-name-label{
+color: #030303;
+font-family: "Poppins";
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.013px;
+}
+
+#sample-kit-form-name-input{
+margin-top: 10px;
+}
+
+#sample-kit-form-company-name-label{
+color: #030303;
+font-family: "Poppins";
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.013px;
+}
+
+#sample-kit-form-company-name-input{
+margin-top: 10px;
+}
+
+#sample-kit-form-phone-number-label , #sample-kit-form-email-label{
+color: #030303;
+font-family: "Poppins";
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.013px;
+}
+
+#sample-kit-form-phone-number-input , #sample-kit-form-email-input{
+margin-top: 10px;
+}
+
+#sample-kit-form-phone-email-wrap{
+   display: block;
+}
+
+#sample-kit-form-phone-number-wrap{
+   width: 100%;
+}
+
+#sample-kit-form-email-wrap{
+   width: 100%;
+}
+
+#sample-kit-form-requirement-textarea-label{
+color: #030303;
+font-family: "Poppins";
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.013px;
+}
+
+#sample-kit-form-requirement-textarea-input{
+width: 92%;
+padding: 12px 12px 0px 15px;
+margin-top: 10px;
+}
+
+#sample-kit-form-requirement-textarea-input::placeholder{
+   color: rgba(90, 84, 84, 0.68);
+font-family: "Poppins";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.012px;
+}
+}
