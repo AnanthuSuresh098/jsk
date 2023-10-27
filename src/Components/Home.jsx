@@ -6,6 +6,7 @@ import { useRef } from "react";
 import { IoIosArrowDropleftCircle } from "react-icons/io";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { BsArrowRightCircle } from "react-icons/bs";
+import { Contact } from "./Contact.jsx";
 
 export const Home = () => {
   
@@ -66,7 +67,8 @@ export const Home = () => {
 
 
   return (
-    <div id="homepage-main-wrapper">
+        <div id="homepage-main-wrapper">
+        <Contact/>
       <div id="homepage-banner-section-wrap">
         <div className="homepage-banner-section-image-wrap">
           <img
@@ -87,9 +89,9 @@ export const Home = () => {
             <button id="homepage-banner-section-contact-button">
               Contact Us
             </button>
-            <button id="homepage-banner-section-request-button">
+           <a href="/samplekit"><button id="homepage-banner-section-request-button">
               Request For Free Sample
-            </button>
+            </button></a>
           </div>
         </div>
       </div>

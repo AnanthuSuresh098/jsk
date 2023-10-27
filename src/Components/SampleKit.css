@@ -137,6 +137,11 @@ margin-top: 14px;
 margin-bottom: 16px;
 }
 
+#sample-kit-form-name-input:focus {
+  border: 0.5px solid #3B7E31;
+  outline: none;
+}
+
 #sample-kit-form-company-name-label{
    color: rgba(3, 3, 3, 0.90);
 font-family: "Poppins";
@@ -155,6 +160,11 @@ width: 100%;
 height: 35px;
 margin-top: 14px;
 margin-bottom: 16px;
+}
+
+#sample-kit-form-company-name-input:focus {
+  border: 0.5px solid #3B7E31;
+  outline: none;
 }
 
 #sample-kit-form-phone-email-wrap{
@@ -194,6 +204,11 @@ margin-top: 14px;
 margin-bottom: 16px;
 }
 
+#sample-kit-form-phone-number-input:focus , #sample-kit-form-email-input:focus{
+  border: 0.5px solid #3B7E31;
+  outline: none;
+}
+
 #sample-kit-form-requirement-textarea-label{
    color: rgba(3, 3, 3, 0.90);
 font-family: "Poppins";
@@ -216,6 +231,11 @@ width: 95%;
 padding: 20px 20px 0px 20px;
 margin-top: 14px;
 margin-bottom: 16px;
+}
+
+#sample-kit-form-requirement-textarea-input:focus{
+  border: 0.5px solid #3B7E31;
+  outline: none;
 }
 
 #sample-kit-form-address-label{
@@ -242,6 +262,11 @@ margin-top: 14px;
 margin-bottom: 16px;
 }
 
+#sample-kit-form-address-input:focus{
+  border: 0.5px solid #3B7E31;
+  outline: none;
+}
+
 #sample-kit-form-city-input , #sample-kit-form-state-input{
 border-radius: 5px;
 border: 0.5px solid rgba(90, 84, 84, 0.58);
@@ -250,6 +275,11 @@ width: 100%;
 height: 35px;
 margin-top: 14px;
 margin-bottom: 16px;
+}
+
+#sample-kit-form-city-input:focus , #sample-kit-form-state-input:focus{
+  border: 0.5px solid #3B7E31;
+  outline: none;
 }
 
 #sample-kit-form-city-label>span, #sample-kit-form-state-label>span{
@@ -287,6 +317,11 @@ width: 100%;
 height: 35px;
 margin-top: 14px;
 margin-bottom: 16px;
+}
+
+#sample-kit-form-postcode-input:focus , #sample-kit-form-country-input:focus{
+  border: 0.5px solid #3B7E31;
+  outline: none;
 }
 
 #sample-kit-form-postcode-label>span, #sample-kit-form-country-label>span{
@@ -444,7 +479,7 @@ margin-top: 17px;
    width: 85%;
    margin: auto;
    margin-top: 51px;
-   margin-bottom: 145px;
+   margin-bottom: 75px;
 }
 
 #sample-kit-form-section-title{
@@ -551,4 +586,112 @@ font-weight: 400;
 line-height: normal;
 letter-spacing: 0.012px;
 }
+
+#sample-kit-form-address-label{
+color: #030303;
+font-family: "Poppins";
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.013px;
+}
+
+#sample-kit-form-address-input{
+margin-top: 10px;
+}
+
+#sample-kit-form-city-state-wrap{
+   display: block;
+}
+
+#sample-kit-form-city-wrap{
+   width: 100%;
+}
+
+#sample-kit-form-state-wrap{
+   width: 100%;
+}
+
+#sample-kit-form-city-label , #sample-kit-form-state-label{
+color: #030303;
+font-family: "Poppins";
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.013px;
+}
+
+#sample-kit-form-city-input , #sample-kit-form-state-input{
+margin-top: 10px;
+}
+
+#sample-kit-form-postcode-country-wrap{
+   display: block;
+}
+
+#sample-kit-form-postcode-wrap{
+   width: 100%;
+}
+
+#sample-kit-form-country-wrap{
+   width: 100%;
+}
+
+#sample-kit-form-postcode-label , #sample-kit-form-country-label{
+color: #030303;
+font-family: "Poppins";
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.013px;
+}
+
+#sample-kit-form-postcode-input , #sample-kit-form-country-input{
+margin-top: 10px;
+}
+
+#sample-kit-form-buttons-wrap{
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#sample-kit-form-submit-button{
+   border-radius: 5px;
+border: 0.5px solid #3B7E31;
+background: #3B7E31;
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.04);
+width: 30%;
+height: 40px;
+color: #FFF;
+font-family: "Poppins";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 133.333% */
+letter-spacing: 0.25px;
+text-transform: capitalize;
+}
+
+#sample-kit-form-cancel-button{
+   border-radius: 5px;
+border: 0.5px solid rgba(112, 112, 112, 0.90);
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.04);
+background: #FFF;
+width: 30%;
+height: 40px;
+color: rgba(3, 3, 3, 0.56);
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 133.333% */
+letter-spacing: 0.038px;
+text-transform: capitalize;
+margin-left: 20px;
+}
+
 }

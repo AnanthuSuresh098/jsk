@@ -1,0 +1,196 @@
+#contact-page-main-wrapper{
+    width: 70%;
+      border-radius: 10px;
+background: #FFF;
+z-index: 999999;
+margin: auto;
+left: 14%;
+top: 200px;
+position: absolute;
+backdrop-filter: blur(3px);
+}
+
+#contact-page-form-wrap{
+    width: 75%;
+    margin: auto;
+    padding-top:90px ;
+    padding-bottom: 84px;
+}
+
+#contact-page-close-icon{
+    position: relative;
+    left: 95%;
+    font-size: 25px;
+    top: 30px;
+    cursor: pointer;
+}
+
+#contact-page-close-icon:hover{
+scale: 1.2;
+}
+
+#contact-page-form-name-label{
+   color: rgba(3, 3, 3, 0.90);
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.016px;
+}
+
+#contact-page-form-name-label>span{
+color: #CD1010;
+}
+
+#contact-page-form-name-input{
+border-radius: 5px;
+border: 0.5px solid rgba(90, 84, 84, 0.58);
+color:#5A545494;
+width: 100%;
+height: 35px;
+margin-top: 14px;
+margin-bottom: 16px;
+}
+
+#contact-page-form-name-input:focus {
+  border: 0.5px solid #3B7E31;
+  outline: none;
+}
+
+#contact-page-form-company-name-label{
+   color: rgba(3, 3, 3, 0.90);
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.016px;
+}
+
+#contact-page-form-company-name-input{
+border-radius: 5px;
+border: 0.5px solid rgba(90, 84, 84, 0.58);
+color:#5A545494;
+width: 100%;
+height: 35px;
+margin-top: 14px;
+margin-bottom: 16px;
+}
+
+#contact-page-form-company-name-input:focus {
+  border: 0.5px solid #3B7E31;
+  outline: none;
+}
+
+#contact-page-form-phone-email-wrap{
+   display: flex;
+   justify-content: space-between;
+}
+
+#contact-page-form-phone-number-wrap{
+   width: 48%;
+}
+
+#contact-page-form-email-wrap{
+   width: 48%;
+}
+
+#contact-page-form-phone-number-label , #contact-page-form-email-label{
+color: rgba(3, 3, 3, 0.90);
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.016px;
+}
+
+#contact-page-form-phone-number-label>span{
+   color: #CD1010;
+}
+
+#contact-page-form-phone-number-input , #contact-page-form-email-input{
+border-radius: 5px;
+border: 0.5px solid rgba(90, 84, 84, 0.58);
+color:#5A545494;
+width: 100%;
+height: 35px;
+margin-top: 14px;
+margin-bottom: 16px;
+}
+
+#contact-page-form-phone-number-input:focus , #contact-page-form-email-input:focus{
+  border: 0.5px solid #3B7E31;
+  outline: none;
+}
+
+#contact-page-form-requirement-textarea-label{
+   color: rgba(3, 3, 3, 0.90);
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.016px;
+}
+
+#contact-page-form-requirement-textarea-input{
+   color: rgba(3, 3, 3, 0.90);
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.016px;
+width: 95%;
+padding: 20px 20px 0px 20px;
+margin-top: 14px;
+margin-bottom: 16px;
+}
+
+#contact-page-form-requirement-textarea-input:focus{
+  border: 0.5px solid #3B7E31;
+  outline: none;
+}
+
+#contact-page-form-buttons-wrap{
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#contact-page-form-submit-button{
+   border-radius: 5px;
+border: 0.5px solid #3B7E31;
+background: #3B7E31;
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.04);
+width: 18%;
+height: 40px;
+color: #FFF;
+font-family: "Poppins";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 133.333% */
+letter-spacing: 0.25px;
+text-transform: uppercase;
+}
+
+#contact-page-form-cancel-button{
+   border-radius: 5px;
+border: 0.5px solid rgba(112, 112, 112, 0.90);
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.04);
+background: #FFF;
+width: 18%;
+height: 40px;
+color: rgba(3, 3, 3, 0.56);
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 133.333% */
+letter-spacing: 0.038px;
+text-transform: uppercase;
+margin-left: 20px;
+}

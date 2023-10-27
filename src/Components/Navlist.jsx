@@ -16,7 +16,7 @@ export const NavList = ({ listClose }) => {
         <a href="/about">
           <div className="mobile-view-navlist-links">About Us</div>
         </a>
-        <a href="/">
+        <a href="/samplekit">
           <div className="mobile-view-navlist-links">Free Sample Kits</div>
         </a>
       </div>

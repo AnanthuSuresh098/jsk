@@ -52,6 +52,10 @@ margin-bottom: 26px;
     cursor: pointer;
 }
 
+#mobile-view-navlist-close-icon:hover{
+  scale: 1.2;
+}
+
 #mobile-view-navlist-divider{
     background: #fff;
     height: 0.5px;
