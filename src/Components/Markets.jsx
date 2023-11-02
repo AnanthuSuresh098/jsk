@@ -75,14 +75,11 @@ export const Markets=()=>{
           convenient shelf-stable packaging, we've got you covered.
         </div>
         <div className="markets-page-description">
-          Our flexible packaging is used in the food industry to maintain
-          freshness and quality in anything from pet food to home cleaners to
-          coffee.
-        </div>
-        <div className="markets-page-description">
-          JSK Packagings flexible and high-quality packaging solutions are the
-          go-to option in several industries because they guarantee quality and
-          innovation with every shipment
+          Our flexible packaging is used in the Food courts, Bakery & Sweet shop
+          Brands, Dry fruit & Grocery , Premix products & processed food,
+          pharmaceuticals, Snacks , cereals & Organic foods, Tea & coffee
+          ,Rubber & Automobile,Industrial oil, Frozen foods, Cattle feeds,
+          Seeds, Pet foods, Electrical, hardware & Electronics
         </div>
 
         <div id="markets-page-slider-main-wrap">
@@ -98,7 +95,7 @@ export const Markets=()=>{
 
             <div className="markets-page-slider-slides">
               <div className="markets-page-slider-image-wrap">
-                <img src="./images/Markets-img/markets02.png" alt="" />
+                <img src="./images/Markets-img/markets02.jpeg" alt="" />
               </div>
               <div className="markets-page-slider-slides-title">
                 Frozen Foods
@@ -107,7 +104,7 @@ export const Markets=()=>{
 
             <div className="markets-page-slider-slides">
               <div className="markets-page-slider-image-wrap">
-                <img src="./images/Markets-img/markets03.png" alt="" />
+                <img src="./images/Markets-img/markets03.jpeg" alt="" />
               </div>
               <div className="markets-page-slider-slides-title">
                 Bakery Products
@@ -134,16 +131,7 @@ export const Markets=()=>{
 
             <div className="markets-page-slider-slides">
               <div className="markets-page-slider-image-wrap">
-                <img src="./images/Markets-img/markets06.png" alt="" />
-              </div>
-              <div className="markets-page-slider-slides-title">
-                Sea Food Packaging
-              </div>
-            </div>
-
-            <div className="markets-page-slider-slides">
-              <div className="markets-page-slider-image-wrap">
-                <img src="./images/Markets-img/markets07.png" alt="" />
+                <img src="./images/Markets-img/markets06.jpeg" alt="" />
               </div>
               <div className="markets-page-slider-slides-title">
                 Grocery Packaging

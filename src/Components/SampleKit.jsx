@@ -6,7 +6,7 @@ export const SampleKit= () => {
       <div id="sample-kit-banner-section-wrap">
         <div className="sample-kit-banner-section-image-wrap">
           <img
-            src="./images/SampleKit/recycle.png"
+            src="./images/SampleKit/samplekit.png"
             alt="banner"
             id="sample-kit-banner-section-image"
           />

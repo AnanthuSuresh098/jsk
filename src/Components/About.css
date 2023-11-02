@@ -72,6 +72,7 @@
 
 #about-us-our-story-image02-wrap {
   width: 100%;
+  margin-top: 30px;
 }
 
 #about-us-our-story-image02-wrap > img {
@@ -81,11 +82,13 @@
 }
 
 #about-us-our-story-image-main-wrap {
-  width: 28%;
+  width: 35%;
+  padding-top: 150px;
+  padding-left: 30px;
 }
 
 #about-us-our-story-content-wrap {
-  width: 70%;
+  width: 65%;
 }
 
 #about-us-page-products-flyer-wrap {
@@ -103,23 +106,25 @@
 
 #about-us-page-bottom-section-wrap {
   display: flex;
-  margin-top: 17px;
+  margin-top: 50px;
+  background: rgba(182, 245, 15, 0.19);
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 #about-us-page-bottom-section-image-wrap {
-  width: 60%;
+  width: 50%;
 }
 
 #about-us-page-bottom-section-image-wrap > img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 #about-us-page-bottom-section-content-wrap {
-  width: 60%;
+  width: 50%;
   padding: 120px 60px 120px 100px;
-  background: rgba(182, 245, 15, 0.19);
 }
 
 #about-us-page-bottom-section-content-wrap > div {
@@ -142,7 +147,7 @@
 #about-us-page-bottom-section-quote-right {
   font-size: 20px;
   position: relative;
-  left: 195px;
+  left: 450px;
   bottom: 23px;
 }
 
@@ -206,7 +211,9 @@ letter-spacing: 0.2px;
 #about-us-our-story-image-main-wrap {
   width: 100%;
   display: flex;
-  margin-top: 20px;
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-left: 0px;
 }
 
 #about-us-our-story-image01-wrap > img {
@@ -221,19 +228,12 @@ letter-spacing: 0.2px;
   object-fit: contain;
 }
 
-#about-us-page-products-flyer-wrap {
-  height: 100px;
-}
-
-#about-us-page-products-flyer-wrap > img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
 #about-us-page-bottom-section-wrap {
   display: block;
-  margin-top: 17px;
+  margin-top: 50px;
+   padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 30px;
 }
 
 #about-us-page-bottom-section-image-wrap {
@@ -244,13 +244,12 @@ letter-spacing: 0.2px;
 #about-us-page-bottom-section-image-wrap > img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 #about-us-page-bottom-section-content-wrap {
   width: 100%;
-  padding: 45px 0px 45px 0px;
-  background: rgba(182, 245, 15, 0.19);
+  padding: 20px 0px 45px 0px;
 }
 
 #about-us-page-bottom-section-content-wrap > div {
@@ -276,6 +275,6 @@ margin: auto;
   font-size: 15px;
   position: relative;
   left: 200px;
-  bottom: 23px;
+  bottom: 20px;
 }
 }

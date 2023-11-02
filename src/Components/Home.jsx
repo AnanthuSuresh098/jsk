@@ -67,8 +67,8 @@ export const Home = () => {
 
 
   return (
-        <div id="homepage-main-wrapper">
-        <Contact/>
+    <div id="homepage-main-wrapper">
+      {/* <Contact/> */}
       <div id="homepage-banner-section-wrap">
         <div className="homepage-banner-section-image-wrap">
           <img
@@ -80,18 +80,22 @@ export const Home = () => {
 
         <div id="homepage-banner-section-content-wrap">
           <div id="homepage-banner-section-content-title">
-            High Quality, Flexible Packagings From JSK Packagings
+            Quality packaging materials by skilled professionals and
+            customer-focused service.
           </div>
           <div id="homepage-banner-section-content-desc">
-            We manufacture a wide range of products for various sectors
+            We cater to various industry sectors for their packaging material
+            and requirements a wide range of products for various sectors
           </div>
           <div id="homepage-banner-section-button-wrap">
             <button id="homepage-banner-section-contact-button">
               Contact Us
             </button>
-           <a href="/samplekit"><button id="homepage-banner-section-request-button">
-              Request For Free Sample
-            </button></a>
+            <a href="/samplekit">
+              <button id="homepage-banner-section-request-button">
+                Request For Free Sample
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -168,7 +172,7 @@ export const Home = () => {
             </div>
             <div className="homepage-products-slider-slides">
               <div className="homepage-products-slider-image-wrap">
-                <img src="./images/Home-img/metalised.png" alt="" />
+                <img src="./images/Home-img/metalized.png" alt="" />
               </div>
               <div className="homepage-products-slider-slides-title">
                 Metalized Pouches
@@ -192,10 +196,10 @@ export const Home = () => {
             </div>
             <div className="homepage-products-slider-slides">
               <div className="homepage-products-slider-image-wrap">
-                <img src="./images/Home-img/agarbhathi.jpeg" alt="" />
+                <img src="./images/Home-img/guzzet.png" alt="" />
               </div>
               <div className="homepage-products-slider-slides-title">
-                Agarbatti Pouches
+                Guzzet Fold Pouches
               </div>
             </div>
           </Slider>
@@ -249,13 +253,15 @@ export const Home = () => {
             About <span>Us</span>
           </div>
           <div>
-            Since its founding in 1999, JSK Packaging has been a forerunner in
-            flexible packaging. Our modern manufacturing facility is in the
-            heart of Hyderabad, near Shamshabad Airport.
+            We strongly believe in going the extra mile for our customers. Our
+            close rapport with our customers have allowed us to become one of
+            the market leaders with strong distribution networks across many
+            parts of India.
           </div>
           <div>
-            Our specialties include high-quality laminated pouches and
-            multilayer laminates; we produce them for various markets.
+            We have built strong competencies in the manufacture of flexible
+            packaging products and are constantly improving and upgrading our
+            production capabilities.
           </div>
           <div id="homepage-about-section-button">
             Know More
@@ -268,14 +274,14 @@ export const Home = () => {
             <img src="./images/Home-img/home-about.jpeg" alt="" />
           </div>
           <div>
-            <img src="./images/Home-img/home-about01.png" alt="" />
+            <img src="./images/Home-img/home-about01.jpeg" alt="" />
           </div>
         </div>
       </div>
 
       <div id="homepage-free-sample-section-wrap">
         <div id="homepage-free-sample-section-image-wrap">
-          <img src="./images/Home-img/objects.png" alt="" />
+          <img src="./images/Home-img/object.png" alt="" />
         </div>
         <div id="homepage-free-sample-section-content-wrap">
           <div id="homepage-free-sample-section-content-title">

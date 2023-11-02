@@ -203,21 +203,6 @@ const product10 = () => {
   });
 };
 
-const product11 = () => {
-  navigate("/product", {
-    state: {
-      id: 11,
-      title: "Agarbatti Pouches",
-      images: [
-        "./images/Products/agarbhathi.jpeg",
-        "./images/Products/agarbatti02.jpg",
-        "./images/Products/agarbatti03.jpg",
-      ],
-      description:
-        "Agarbatti Pouch Pack, most popular in the Indian market as it is compact and economical. Handy and convenient “Chota-Pack” to top-up your spiritual connection. Airlock pouch packs are designed the keep the aromatic value and freshness intact. The truly fascinating fragrance of each of these packs will make you feel blessed.",
-    },
-  });
-};
 
 const product12 = () => {
   navigate("/product", {
@@ -363,15 +348,6 @@ const product12 = () => {
               <img src="./images/Products/organic.png" alt="" />{" "}
             </div>
             <div>Organic Food Packaging</div>
-          </div>
-          <div className="our-products-page-product-grids" onClick={() => {
-              product11();
-            }}>
-            <div className="our-products-page-product-grids-image-wrap">
-              {" "}
-              <img src="./images/Products/agarbhathi.jpeg" alt="" />{" "}
-            </div>
-            <div>Agarbatti Pouches</div>
           </div>
           <div className="our-products-page-product-grids" onClick={() => {
               product12();

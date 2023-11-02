@@ -13,18 +13,22 @@ export const About = () => {
             Our <span>Story</span>
           </div>
           <div id="about-us-page-description-para-01">
-            Our pursuit of greatness depends on our ability to evolve and grow
-            constantly. We've invested in state-of-the-art machinery to boost
-            manufacturing capacity and guarantee first-rate output.By investing
-            in long-term partnerships with our clientele, we have risen to the
-            top of our industry.{" "}
+            Established since 1999, Jai shri krishna packaging industries is a
+            leading manufacturer of quality laminated pouches & multilayer
+            laminates in wide range & structures. Being one of the leading
+            converters for flexible packaging materials we believe in the
+            continuous introduction of new technologies and facilities. Coupled
+            with veteran personnel equipped with professional skills and
+            customer oriented services, be assured quality satisfaction in your
+            flexible packaging material needs.
           </div>
           <div id="about-us-page-description-para-02">
-            Since its founding in 1999, JSK PKG has been a forerunner in
-            flexible packaging. Our modern manufacturing facility is in the
-            heart of Hyderabad, near Shamshabad Airport. Our specialties include
-            high-quality laminated pouches and multilayer laminates; we produce
-            them for various markets.
+            We have built strong competencies in the manufacture of flexible
+            packaging products and are constantly improving and upgrading our
+            production capabilities. We strongly believe in going the extra mile
+            for our customers. Our close rapport with our customers have allowed
+            us to become one of the market leaders with strong distribution
+            networks across many parts of India.
           </div>
         </div>
 
@@ -37,10 +41,6 @@ export const About = () => {
             <img src="./images/About-img/story02.png" alt="" />
           </div>
         </div>
-      </div>
-
-      <div id="about-us-page-products-flyer-wrap">
-        <img src="./images/About-img/flyer.png" alt="" />
       </div>
 
       <div id="about-us-page-bottom-section-wrap">

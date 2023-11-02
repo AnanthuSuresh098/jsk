@@ -33,22 +33,22 @@
   width: 80%;
   margin: auto;
   padding-top: 60px;
-  margin-bottom: 60px;
+  margin-bottom: 150px;
 }
 
 .markets-page-slider-image-wrap {
-  width: 93%;
-  height: 240px;
-  border-radius: 10px;
-  border: 0.5px solid rgba(112, 112, 112, 0.35);
-  background: #f6f7f7;
+  width: 90%;
+  height: 275px;
+  /* border-radius: 10px; */
+  /* border: 0.5px solid rgba(112, 112, 112, 0.35); */
+  /* background: #f6f7f7; */
   /* padding: 35px; */
 }
 
 .markets-page-slider-image-wrap > img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 #markets-page-slider-main-wrap {
@@ -71,10 +71,6 @@
   letter-spacing: 0.018px;
   margin-top: 23px;
   text-align: center;
-}
-
-.markets-page-slider-component > .slick-list > div > div {
-  width: 177px;
 }
 
 .markets-page-slider-nextarrow {
@@ -132,7 +128,7 @@ letter-spacing: 0.2px;
   width: 90%;
   margin: auto;
   padding-top: 60px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 #markets-page-slider-main-wrap {
@@ -144,11 +140,14 @@ letter-spacing: 0.2px;
 .markets-page-slider-image-wrap {
   width: 85%;
   margin: auto;
-  height: 150px;
+  height: 180px;
   border-radius: 10px;
-  border: 0.5px solid rgba(112, 112, 112, 0.35);
-  background: #f6f7f7;
-  /* padding: 35px; */
+}
+
+.markets-page-slider-image-wrap > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .markets-page-slider-component {
@@ -159,7 +158,7 @@ letter-spacing: 0.2px;
   color: #3b7e31;
   font-size: 30px;
   position: relative;
-  bottom: 140px;
+  bottom: 160px;
   left: 95%;
   cursor: pointer;
   z-index: 9999;
@@ -169,7 +168,7 @@ letter-spacing: 0.2px;
   color: #3b7e31;
   font-size: 30px;
   position: relative;
-  top: 95px;
+  top: 105px;
   right: 4%;
   cursor: pointer;
   z-index: 9999;
