@@ -178,8 +178,7 @@ const product09 = () => {
       title: "Laminated Films For FFS Machines",
       images: [
         "./images/Products/laminated.png",
-        "./images/Products/ffs-laminated02.png",
-        "./images/Products/ffs-laminated03.png",
+        "./images/Products/ffs-laminated02.jpg",
       ],
       description:
         "We supply in roll form as per FFS machine requirements & specifications.Roll Form Laminates For FFS Machines Roll Form Laminates for FFS Machines offered comprises printed and laminated films that are made available in roll form which can be used for FFS machines used for packing in Cosmetic, Pharmaceutical, Food, Agro and other industry sectors. These are made available in BOPP material and find extensive use in food packaging applications. The packaging is also suitable to pack different kind of foods like cookies, candy, dried fruit and other products.",
@@ -195,7 +194,7 @@ const product10 = () => {
       images: [
         "./images/Products/organic.png",
         "./images/Products/organic02.jpg",
-        "./images/Products/organic03.jpg",
+        "./images/Products/organic03.webp",
       ],
       description:
         "Organic packaging is made from natural, plant-based materials, often derived from organic waste and renewable resources. These materials used to make organic packaging are biodegradable or compostable and can degrade naturally into non-toxic compounds, often improving soil quality",
@@ -361,7 +360,7 @@ const product12 = () => {
 
         <div id="our-products-page-free-sample-section-wrap">
           <div id="our-products-page-free-sample-section-image-wrap">
-            <img src="./images/Home-img/objects.png" alt="" />
+            <img src="./images/Home-img/object.png" alt="" />
           </div>
           <div id="our-products-page-free-sample-section-content-wrap">
             <div id="our-products-page-free-sample-section-content-title">
