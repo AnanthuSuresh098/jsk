@@ -1,13 +1,15 @@
 #sample-kit-banner-section-wrap{
-    height: 603px;
+    height: auto;
     background: rgba(190, 216, 120, 0.80);
+    padding-bottom: 160px;
      overflow: hidden;
+     position: relative;
 }
 
 .sample-kit-banner-section-image-wrap{
    width: 45%;
    position: absolute;
-   top: 35%;
+   top: 15%;
    right: 5%;
 }
 
@@ -408,7 +410,7 @@ letter-spacing: 0.25px;
 .sample-kit-banner-section-image-wrap{
    width: 80%;
    position: absolute;
-   top: 16%;
+   top: 6%;
    right: 10%;
 }
 
@@ -470,7 +472,8 @@ margin-top: 17px;
 }
 
 #sample-kit-banner-section-wrap{
-    height: 500px;
+    height: auto;
+    padding-bottom: 50px;
     background: rgba(190, 216, 120, 0.80);
      overflow: hidden;
 }

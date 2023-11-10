@@ -90,9 +90,12 @@ export const Product = () => {
           </span>
           Customisation available
         </div>
-        <div id="product-main-page-product-content-kit-button">
-          Request for free sample kit
-        </div>
+        <a href="/samplekit" id="product-main-page-product-content-kit-button-link">
+          {" "}
+          <div id="product-main-page-product-content-kit-button">
+            Request for free sample kit
+          </div>
+        </a>
         <div id="product-main-page-product-content-quote-button">
           Request a quote
         </div>

@@ -2,13 +2,15 @@ import "./Home.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { IoIosArrowDropleftCircle } from "react-icons/io";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { BsArrowRightCircle } from "react-icons/bs";
 import { Contact } from "./Contact.jsx";
 
 export const Home = () => {
+
+  const [contact, setContact] = useState(false)
   
   const slider01Ref = useRef(null);
 
@@ -17,7 +19,7 @@ export const Home = () => {
     dots: false,
     infinite: true,
     speed: 500,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 1500,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -32,6 +34,7 @@ export const Home = () => {
           slidesToShow: 2,
           slidesToScroll: 1,
           dots: false,
+          arrows: false,
           variableWidth: true,
         },
       },
@@ -65,10 +68,14 @@ export const Home = () => {
     }
 
 
+const contactPopup=()=>{
+setContact(true);
+}
+
 
   return (
     <div id="homepage-main-wrapper">
-      {/* <Contact/> */}
+      {/* {contact &&<Contact/>} */}
       <div id="homepage-banner-section-wrap">
         <div className="homepage-banner-section-image-wrap">
           <img
@@ -88,7 +95,7 @@ export const Home = () => {
             and requirements a wide range of products for various sectors
           </div>
           <div id="homepage-banner-section-button-wrap">
-            <button id="homepage-banner-section-contact-button">
+            <button id="homepage-banner-section-contact-button" onClick={contactPopup}>
               Contact Us
             </button>
             <a href="/samplekit">
