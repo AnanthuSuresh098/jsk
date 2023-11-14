@@ -468,6 +468,18 @@ position: relative;
    top: 10px;
 }
 
+#our-markets-section-button-link{
+   text-decoration: none;
+}
+
+#homepage-about-section-button-link{
+   text-decoration: none;
+}
+
+#homepage-free-sample-section-button-link{
+   text-decoration: none;
+}
+
 @media screen and (max-width:480px) {
 
    #homepage-banner-section-content-title{

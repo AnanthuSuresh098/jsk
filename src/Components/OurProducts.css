@@ -144,13 +144,14 @@
   letter-spacing: 0.25px;
   text-transform: capitalize;
   margin-top: 30px;
+  position: relative;
 }
 
 #our-products-page-free-sample-section-button-icon {
   font-size: 20px;
-  position: relative;
-  left: 50px;
-  top: 5px;
+  position: absolute;
+  left: 85%;
+   top: 10px;
 }
 
 #our-products-page-faq-section-wrap {
@@ -218,6 +219,10 @@
   line-height: 30px; /* 166.667% */
   letter-spacing: 0.25px;
   margin-top: 29px;
+}
+
+#our-products-page-free-sample-section-button-link{
+  text-decoration: none;
 }
 
 @media screen and (max-width: 480px) {

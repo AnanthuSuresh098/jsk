@@ -1,10 +1,11 @@
 import "./Contact.css";
 import { RxCross2 } from "react-icons/rx";
 
-export const Contact=()=>{
-    return (
+export const Contact = ({ Contactpopupclose }) => {
+  return (
+    <div id="contact-page-main-wrap">
       <div id="contact-page-main-wrapper">
-        <RxCross2 id="contact-page-close-icon" />
+        <RxCross2 id="contact-page-close-icon" onClick={Contactpopupclose} />
         <div id="contact-page-form-wrap">
           <form action="">
             <div>
@@ -37,7 +38,10 @@ export const Contact=()=>{
                     Phone Number <span>*</span>
                   </label>
                 </div>
-                <input type="number" id="contact-page-form-phone-number-input" />
+                <input
+                  type="number"
+                  id="contact-page-form-phone-number-input"
+                />
               </div>
 
               <div id="contact-page-form-email-wrap">
@@ -54,7 +58,10 @@ export const Contact=()=>{
             </div>
 
             <div>
-              <label htmlFor="" id="contact-page-form-requirement-textarea-label">
+              <label
+                htmlFor=""
+                id="contact-page-form-requirement-textarea-label"
+              >
                 Tell us your requirements
               </label>
             </div>
@@ -71,5 +78,6 @@ export const Contact=()=>{
           </form>
         </div>
       </div>
-    );
-}
+    </div>
+  );
+};

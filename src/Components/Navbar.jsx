@@ -46,7 +46,10 @@ export const Navbar = () =>{
           <div id="navbar-search-input-main-wrap">
             <input type="search" placeholder="Search..." />
             <div id="navbar-search-input-icon-wrap">
-              <GoSearch id="navbar-search-input-icon" />
+              <a href="/ourproducts">
+                {" "}
+                <GoSearch id="navbar-search-input-icon" />
+              </a>
             </div>
           </div>
         </div>

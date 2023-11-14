@@ -2,7 +2,7 @@ import "./OurProducts.css";
 import { BsArrowRightCircle } from "react-icons/bs";
 import { BsArrowDownCircle } from "react-icons/bs";
 import { BsArrowUpCircle } from "react-icons/bs";
-import { useState } from "react";
+import { useState ,useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 export const OurProducts=()=>{
@@ -348,9 +348,12 @@ const product12 = () => {
             </div>
             <div>Organic Food Packaging</div>
           </div>
-          <div className="our-products-page-product-grids" onClick={() => {
+          <div
+            className="our-products-page-product-grids"
+            onClick={() => {
               product12();
-            }}>
+            }}
+          >
             <div className="our-products-page-product-grids-image-wrap">
               <img src="./images/Products/catering.png" alt="" />{" "}
             </div>
@@ -370,10 +373,16 @@ const product12 = () => {
               Share your specific needs, and our dedicated team will reach out
               to you promptly!
             </div>
-            <div id="our-products-page-free-sample-section-button">
-              Know More
-              <BsArrowRightCircle id="homepage-free-sample-section-button-icon" />
-            </div>
+            <a
+              href="/samplekit"
+              id="our-products-page-free-sample-section-button-link"
+            >
+              {" "}
+              <div id="our-products-page-free-sample-section-button">
+                Know More
+                <BsArrowRightCircle id="our-products-page-free-sample-section-button-icon" />
+              </div>
+            </a>
           </div>
         </div>
 

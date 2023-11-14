@@ -10,7 +10,7 @@ import { Contact } from "./Contact.jsx";
 
 export const Home = () => {
 
-  const [contact, setContact] = useState(false)
+  const [contact, setContact] = useState(false);
   
   const slider01Ref = useRef(null);
 
@@ -72,10 +72,14 @@ const contactPopup=()=>{
 setContact(true);
 }
 
+const Contactpopupclose = () => {
+  setContact(false);
+};
+
 
   return (
     <div id="homepage-main-wrapper">
-      {/* {contact &&<Contact/>} */}
+      {contact === true && <Contact Contactpopupclose={Contactpopupclose}/>}
       <div id="homepage-banner-section-wrap">
         <div className="homepage-banner-section-image-wrap">
           <img
@@ -95,7 +99,10 @@ setContact(true);
             and requirements a wide range of products for various sectors
           </div>
           <div id="homepage-banner-section-button-wrap">
-            <button id="homepage-banner-section-contact-button" onClick={contactPopup}>
+            <button
+              id="homepage-banner-section-contact-button"
+              onClick={contactPopup}
+            >
               Contact Us
             </button>
             <a href="/samplekit">
@@ -247,10 +254,12 @@ setContact(true);
             We cater to all marketplaces, including those for prepared foods,
             fresh produce, confections, and snacks.
           </div>
-          <div id="our-markets-section-button">
-            Know More
-            <BsArrowRightCircle id="our-markets-section-button-icon" />
-          </div>
+          <a href="/markets" id="our-markets-section-button-link">
+            <div id="our-markets-section-button">
+              Know More
+              <BsArrowRightCircle id="our-markets-section-button-icon" />
+            </div>
+          </a>
         </div>
       </div>
 
@@ -270,10 +279,12 @@ setContact(true);
             packaging products and are constantly improving and upgrading our
             production capabilities.
           </div>
-          <div id="homepage-about-section-button">
-            Know More
-            <BsArrowRightCircle id="homepage-about-section-button-icon" />
-          </div>
+          <a href="/about" id="homepage-about-section-button-link">
+            <div id="homepage-about-section-button">
+              Know More
+              <BsArrowRightCircle id="homepage-about-section-button-icon" />
+            </div>
+          </a>
         </div>
 
         <div id="homepage-about-section-image-wrap">
@@ -298,10 +309,12 @@ setContact(true);
             Share your specific needs, and our dedicated team will reach out to
             you promptly!
           </div>
-          <div id="homepage-free-sample-section-button">
-            Know More
-            <BsArrowRightCircle id="homepage-free-sample-section-button-icon" />
-          </div>
+          <a href="/samplekit" id="homepage-free-sample-section-button-link">
+            <div id="homepage-free-sample-section-button">
+              Know More
+              <BsArrowRightCircle id="homepage-free-sample-section-button-icon" />
+            </div>
+          </a>
         </div>
       </div>
     </div>

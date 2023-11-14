@@ -1,8 +1,22 @@
-import "./SampleKit.css"
+import "./SampleKit.css";
+import { useState } from "react";
+import { Contact } from "./Contact.jsx";
 
 export const SampleKit= () => {
+
+ const [contact, setContact] = useState(false);
+
+  const contactPopup=()=>{
+setContact(true);
+}
+
+const Contactpopupclose = () => {
+  setContact(false);
+};
+
   return (
     <div id="sample-kit-page-main-wrapper">
+      {contact === true && <Contact Contactpopupclose={Contactpopupclose} />}
       <div id="sample-kit-banner-section-wrap">
         <div className="sample-kit-banner-section-image-wrap">
           <img
@@ -20,7 +34,10 @@ export const SampleKit= () => {
             We manufacture a wide range of products for various sectors
           </div>
           <div id="sample-kit-banner-section-button-wrap">
-            <button id="sample-kit-banner-section-contact-button">
+            <button
+              id="sample-kit-banner-section-contact-button"
+              onClick={contactPopup}
+            >
               Contact Us
             </button>
             <button id="sample-kit-banner-section-request-button">

@@ -97,6 +97,35 @@ letter-spacing: 0.027px;
     display: none;
 }
 
+#footer-info-section-contact-wrap>a{
+    text-decoration: none;
+}
+
+#footer-info-section-contact-wrap>a>div:hover{
+  color: darkgreen;
+}
+
+#footer-info-section-email-wrap>a{
+  text-decoration: none;
+}
+
+#footer-info-section-email-wrap>a>div:hover{
+  color: darkgreen;
+}
+
+#footer-quick-link-section-wrap>a>div:hover{
+   color: darkgreen; 
+}
+
+#footer-quick-link-section-wrap>:nth-child(5){
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+#footer-quick-link-section-wrap>:nth-child(5):hover{
+   color: darkgreen; 
+}
+
 @media screen and (max-width:480px) {
 
 #footer-main-wrapper{
