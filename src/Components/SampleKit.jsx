@@ -14,6 +14,14 @@ const Contactpopupclose = () => {
   setContact(false);
 };
 
+const Scrollfunction = () => {
+  window.scrollTo({ top: 800, left: 0, behavior: "smooth" });
+};
+
+const handleNavigate = () => {
+  Scrollfunction();
+};
+
   return (
     <div id="sample-kit-page-main-wrapper">
       {contact === true && <Contact Contactpopupclose={Contactpopupclose} />}
@@ -40,7 +48,7 @@ const Contactpopupclose = () => {
             >
               Contact Us
             </button>
-            <button id="sample-kit-banner-section-request-button">
+            <button id="sample-kit-banner-section-request-button" onClick = { handleNavigate }>
               Request For Free Sample
             </button>
           </div>

@@ -76,18 +76,18 @@
 .markets-page-slider-nextarrow {
   color: #3b7e31;
   font-size: 55px;
-  position: relative;
-  bottom: 210px;
-  left: 1090px;
+  position: absolute;
+  top: 50%;
+  left: 99%;
   cursor: pointer;
 }
 
 .markets-page-slider-prevarrow {
   color: #3b7e31;
   font-size: 55px;
-  position: relative;
-  top: 150px;
-  right: 90px;
+  position: absolute;
+  top: 50%;
+  right: 100%;
   cursor: pointer;
 }
 
@@ -157,9 +157,8 @@ letter-spacing: 0.2px;
 .markets-page-slider-nextarrow {
   color: #3b7e31;
   font-size: 30px;
-  position: relative;
-  bottom: 160px;
-  left: 95%;
+  top: 28%;
+  left: 90%;
   cursor: pointer;
   z-index: 9999;
 }
@@ -167,9 +166,8 @@ letter-spacing: 0.2px;
 .markets-page-slider-prevarrow {
   color: #3b7e31;
   font-size: 30px;
-  position: relative;
-  top: 105px;
-  right: 4%;
+  top: 28%;
+  right: 90%;
   cursor: pointer;
   z-index: 9999;
 }
